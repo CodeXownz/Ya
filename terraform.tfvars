@@ -6,4 +6,4 @@ proxmox_api_url = "https://your_proxmox_ip:8006/api2/json"
 proxmox_user    = "root@pam"
 
 यहाँ तपाईंको प्रोक्समक्स प्रयोगकर्ताको पासवर्ड राख्नुहोस्।
-proxmox_password = "your_strong_password"
+proxmox_password = "begaming@12"
