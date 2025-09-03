@@ -1,0 +1,18 @@
+
+Terraform State Files
+यी फाइलहरूमा तपाईंको पूर्वाधार (infrastructure) को वर्तमान अवस्थाको जानकारी हुन्छ।
+यसलाई रिमोट ब्याकेन्ड (remote backend) मा सुरक्षित राख्नु राम्रो हुन्छ।
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+.tfstate.
+crash.log
+
+Terraform Cloud Credentials
+टेराफर्म क्लाउडको लागि गोप्य जानकारी
+.terraformrc
+terraform.rc
+
+Variable Definition Files
+यसमा तपाईंको गोप्य जानकारी (पासवर्ड) हुन्छ।
+*.tfvars
